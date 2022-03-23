@@ -16,6 +16,8 @@
 		B68C0DCB27E9A97F005B536A /* LazyLoadImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C0DCA27E9A97F005B536A /* LazyLoadImageTests.swift */; };
 		B68C0DD527E9A97F005B536A /* LazyLoadImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C0DD427E9A97F005B536A /* LazyLoadImageUITests.swift */; };
 		B68C0DD727E9A97F005B536A /* LazyLoadImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C0DD627E9A97F005B536A /* LazyLoadImageUITestsLaunchTests.swift */; };
+		B68C0DE427E9ADB2005B536A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C0DE327E9ADB2005B536A /* CollectionViewCell.swift */; };
+		B68C0E2227E9DF90005B536A /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C0E2127E9DF90005B536A /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B68C0DD027E9A97F005B536A /* LazyLoadImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyLoadImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68C0DD427E9A97F005B536A /* LazyLoadImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadImageUITests.swift; sourceTree = "<group>"; };
 		B68C0DD627E9A97F005B536A /* LazyLoadImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B68C0DE327E9ADB2005B536A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B68C0E2127E9DF90005B536A /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B68C0DB527E9A97B005B536A /* SceneDelegate.swift */,
 				B68C0DB727E9A97B005B536A /* ViewController.swift */,
 				B68C0DB927E9A97B005B536A /* Main.storyboard */,
+				B68C0DE327E9ADB2005B536A /* CollectionViewCell.swift */,
+				B68C0E2127E9DF90005B536A /* CustomImageView.swift */,
 				B68C0DBC27E9A97E005B536A /* Assets.xcassets */,
 				B68C0DBE27E9A97E005B536A /* LaunchScreen.storyboard */,
 				B68C0DC127E9A97E005B536A /* Info.plist */,
@@ -260,7 +266,9 @@
 			files = (
 				B68C0DB827E9A97B005B536A /* ViewController.swift in Sources */,
 				B68C0DB427E9A97B005B536A /* AppDelegate.swift in Sources */,
+				B68C0DE427E9ADB2005B536A /* CollectionViewCell.swift in Sources */,
 				B68C0DB627E9A97B005B536A /* SceneDelegate.swift in Sources */,
+				B68C0E2227E9DF90005B536A /* CustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
